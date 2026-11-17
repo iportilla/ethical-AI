@@ -1,0 +1,27 @@
+# Ethical AI Case Labs (Fall 2026); target: Google Colab, Python 3.11+, T4 GPU
+# Verified 2026-11-16 on Python 3.11 (pandas 3.1, numpy 2.4, scipy 1.17).
+#
+# Install in this order (Colab cell):
+#   !pip install -r requirements.txt
+#   !pip install --no-deps xport      # ProtoDash imports xport; its own deps pin an old pandas that won't build
+#
+# Do NOT use `pip install aix360[protodash]` or `aif360[AdversarialDebiasing]`:
+# the first tries to build pandas 1.3.5, the second pulls in TensorFlow.
+
+torch
+torchvision
+transformers
+datasets
+scikit-learn
+pandas
+matplotlib
+seaborn
+codecarbon                      # Lab 2: energy estimates
+pip-audit                       # Lab 2: dependency audit of archived code
+aif360                          # Labs 1-2: IBM AI Fairness 360
+fairlearn                       # enables AIF360 ExponentiatedGradientReduction (Lab 2, Grad)
+aix360                          # Labs 2-3: IBM AI Explainability 360
+lime                            # AIX360 LIME wrapper (Lab 3)
+cvxpy                           # ProtoDash solver (Lab 2)
+setuptools<81                   # xport needs pkg_resources
+adversarial-robustness-toolbox  # Lab 3 (Grad): IBM ART
