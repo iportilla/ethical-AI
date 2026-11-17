@@ -67,3 +67,14 @@ can help organizations increase their cyber resiliency and manage the risks of a
 ### MIT Moral Machine
 
 https://www.moralmachine.net/
+
+
+## Ethical AI Case Labs (Fall 2026)
+
+Three case-based labs for Applied Deep Learning (APPM 4350/5350). Each one maps Microsoft's Responsible AI principles to IBM's Pillars of Trust and uses the IBM tools listed above:
+
+- [Lab 1: "Bring Back Jensen?" Leadership accountability](case-labs-2026/lab1-nvidia-accountability.md) (AI FactSheets, AIF360)
+- [Lab 2: "Research or Scale?" Microsoft's AI Frontiers reorganization](case-labs-2026/lab2-research-vs-scale.md) (AIF360, AIX360)
+- [Lab 3: Gated models and the collapsing patch window](case-labs-2026/lab3-gated-models-patch-window.md) (AIX360, ART, zero trust)
+
+Overview, framework crosswalk and grading: [case-labs-2026/README.md](case-labs-2026/README.md)
