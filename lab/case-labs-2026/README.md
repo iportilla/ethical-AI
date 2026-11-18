@@ -11,6 +11,8 @@ Three labs that apply **Microsoft's Responsible AI principles** and **IBM's Pill
 | [Lab 2](lab2-research-vs-scale.md) | Microsoft's AI Frontiers group folded into Microsoft AI | Reliability & Safety / Fairness | AIF360, AIX360 | ~2 hrs |
 | [Lab 3](lab3-gated-models-patch-window.md) | Government-gated frontier models and the collapsing patch window | Privacy & Security / Robustness | AIX360, ART, zero trust | ~2.5 hrs |
 
+**Cross-case classroom exercise:** [classroom-exercise.md](classroom-exercise.md) is a 50-minute small-group discussion comparing all three cases. It needs no code and can run before or after the labs.
+
 ## Two frameworks, one crosswalk
 
 Microsoft has six principles. IBM's AI Ethics Board defines five Pillars of Trust and backs most of them with an open-source toolkit, now hosted by the [LF AI & Data Foundation](https://lfaidata.foundation/). Students should use both vocabularies. Where the frameworks disagree is itself a discussion point. Microsoft names **Inclusiveness** and **Accountability** as principles; IBM handles accountability through governance (its AI Ethics Board and Focal Points) rather than as a pillar.
